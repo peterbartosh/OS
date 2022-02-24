@@ -1,2 +1,3 @@
-﻿  NumberLib.cpp
-  NumberLib.vcxproj -> C:\OS 4 sem\Libs\Libs\Debug\NumberLib.lib
+﻿  pch.cpp
+  NumberLib.cpp
+  NumberLib.vcxproj -> C:\OS\Libs\Libs\Debug\NumberLib.lib
