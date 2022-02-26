@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Client.dir/main.cpp.o -o Client  -Wl,-rpath,"/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug" libNumber.a libVector.so 

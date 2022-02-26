@@ -1,0 +1,7 @@
+# ninja log v5
+0	292	1645879975030755586	CMakeFiles/Client.dir/main.cpp.o	7020356d6872d608
+0	26	1645880092338825700	CMakeFiles/Number.dir/home/peter/Documents/OS/Libraries/Libs/Number/library.cpp.o	9140db9f463bcbaf
+26	33	1645880092346825704	libNumber.a	ebe3da9633341cd2
+1	69	1645880092378825719	CMakeFiles/Vector.dir/home/peter/Documents/OS/Libraries/Libs/Vector/library.cpp.o	2b5abcfea443004b
+69	100	1645880092410825734	libVector.so	5b7cd306acdb221
+100	177	1645880092486825769	Client	84c4222e415f2fac
