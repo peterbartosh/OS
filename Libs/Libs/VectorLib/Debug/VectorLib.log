@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  dllmain.cpp
+  VectorLib.cpp
+  Создание кода...
+     Создается библиотека C:\OS\Libs\Libs\Debug\VectorLib.lib и объект C:\OS\Libs\Libs\Debug\VectorLib.exp
+  VectorLib.vcxproj -> C:\OS\Libs\Libs\Debug\VectorLib.dll
