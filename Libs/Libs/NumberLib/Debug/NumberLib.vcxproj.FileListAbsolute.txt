@@ -1,4 +1,0 @@
-C:\OS 4 sem\Libs\Libs\Debug\NumberLib.pdb
-C:\OS 4 sem\Libs\Libs\NumberLib\Debug\NumberLib.pdb
-C:\OS\Libs\Libs\Debug\NumberLib.pdb
-C:\OS\Libs\Libs\NumberLib\Debug\NumberLib.pdb

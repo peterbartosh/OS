@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/peter/Documents/OS/Libraries/Libs/Vector/cmake-build-debug/
+cmake_ninja_workdir = /home/peter/Documents/os$ labs/OS/Libraries$ Ubuntu/Libs/Vector/cmake-build-debug/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/peter/Documents/OS/Libraries/Libs/Vector/cmake-build-debug && /home/peter/Downloads/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Vector/cmake-build-debug" && /home/peter/Downloads/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -60,11 +60,12 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Number: phony || CMakeFiles/Number.dir
 
-build CMakeFiles/Number.dir/library.cpp.o: CXX_COMPILER__Number_Debug /home/peter/Documents/OS/Libraries/Libs/Vector/library.cpp || cmake_object_order_depends_target_Number
-  DEP_FILE = CMakeFiles/Number.dir/library.cpp.o.d
+build CMakeFiles/Number.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o: CXX_COMPILER__Number_Debug /home/peter/Documents/os$ labs/OS/Libraries$ Ubuntu/Libs/Number/library.cpp || cmake_object_order_depends_target_Number
+  DEP_FILE = CMakeFiles/Number.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o.d
   FLAGS = -g -std=gnu++14
+  INCLUDES = -I"/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Vector/Number"
   OBJECT_DIR = CMakeFiles/Number.dir
-  OBJECT_FILE_DIR = CMakeFiles/Number.dir
+  OBJECT_FILE_DIR = CMakeFiles/Number.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number
 
 
 # =============================================================================
@@ -74,7 +75,7 @@ build CMakeFiles/Number.dir/library.cpp.o: CXX_COMPILER__Number_Debug /home/pete
 #############################################
 # Link the static library libNumber.a
 
-build libNumber.a: CXX_STATIC_LIBRARY_LINKER__Number_Debug CMakeFiles/Number.dir/library.cpp.o
+build libNumber.a: CXX_STATIC_LIBRARY_LINKER__Number_Debug CMakeFiles/Number.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/Number.dir
   POST_BUILD = :
@@ -87,7 +88,7 @@ build libNumber.a: CXX_STATIC_LIBRARY_LINKER__Number_Debug CMakeFiles/Number.dir
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/peter/Documents/OS/Libraries/Libs/Vector/cmake-build-debug && /home/peter/Downloads/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/peter/Documents/OS/Libraries/Libs/Vector -B/home/peter/Documents/OS/Libraries/Libs/Vector/cmake-build-debug
+  COMMAND = cd "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Vector/cmake-build-debug" && /home/peter/Downloads/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S"/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Vector" -B"/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Vector/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,10 +104,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_Vector: phony || cmake_object_order_depends_target_Number
 
-build CMakeFiles/Vector.dir/library.cpp.o: CXX_COMPILER__Vector_Debug /home/peter/Documents/OS/Libraries/Libs/Vector/library.cpp || cmake_object_order_depends_target_Vector
+build CMakeFiles/Vector.dir/library.cpp.o: CXX_COMPILER__Vector_Debug /home/peter/Documents/os$ labs/OS/Libraries$ Ubuntu/Libs/Vector/library.cpp || cmake_object_order_depends_target_Vector
   DEFINES = -DVector_EXPORTS
   DEP_FILE = CMakeFiles/Vector.dir/library.cpp.o.d
   FLAGS = -g -fPIC -std=gnu++14
+  INCLUDES = -I"/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Vector/Number"
   OBJECT_DIR = CMakeFiles/Vector.dir
   OBJECT_FILE_DIR = CMakeFiles/Vector.dir
 
@@ -142,7 +144,7 @@ build Vector: phony libVector.so
 # =============================================================================
 
 #############################################
-# Folder: /home/peter/Documents/OS/Libraries/Libs/Vector/cmake-build-debug
+# Folder: /home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Vector/cmake-build-debug
 
 build all: phony libNumber.a libVector.so
 

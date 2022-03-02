@@ -57,10 +57,10 @@ RM = /home/peter/Downloads/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/bin/cma
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client"
+CMAKE_SOURCE_DIR = "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -130,19 +130,6 @@ Client/fast:
 .PHONY : Client/fast
 
 #=============================================================================
-# Target rules for targets named Number
-
-# Build rule for target.
-Number: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Number
-.PHONY : Number
-
-# fast build rule for target.
-Number/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/build
-.PHONY : Number/fast
-
-#=============================================================================
 # Target rules for targets named Vector
 
 # Build rule for target.
@@ -155,53 +142,66 @@ Vector/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/build
 .PHONY : Vector/fast
 
-home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.o: home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o
-.PHONY : home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.o
+#=============================================================================
+# Target rules for targets named Number
+
+# Build rule for target.
+Number: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Number
+.PHONY : Number
+
+# fast build rule for target.
+Number/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/build
+.PHONY : Number/fast
+
+home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.o: home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o
+.PHONY : home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.o
 
 # target to build an object file
-home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o
-.PHONY : home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o
+home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o
+.PHONY : home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o
 
-home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.i: home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.i
-.PHONY : home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.i
+home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.i: home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.i
+.PHONY : home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.i
 
 # target to preprocess a source file
-home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.i
-.PHONY : home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.i
+home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.i
+.PHONY : home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.i
 
-home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.s: home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.s
-.PHONY : home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.s
+home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.s: home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.s
+.PHONY : home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.s
 
 # target to generate assembly for a file
-home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.s
-.PHONY : home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.s
+home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.s
+.PHONY : home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.s
 
-home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.o: home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.o
-.PHONY : home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.o
+home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.o: home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.o
+.PHONY : home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.o
 
 # target to build an object file
-home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.o
-.PHONY : home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.o
+home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.o
+.PHONY : home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.o
 
-home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.i: home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.i
-.PHONY : home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.i
+home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.i: home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.i
+.PHONY : home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.i
 
 # target to preprocess a source file
-home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.i
-.PHONY : home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.i
+home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.i
+.PHONY : home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.i
 
-home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.s: home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.s
-.PHONY : home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.s
+home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.s: home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.s
+.PHONY : home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.s
 
 # target to generate assembly for a file
-home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.s
-.PHONY : home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.s
+home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.s
+.PHONY : home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -238,12 +238,12 @@ help:
 	@echo "... Client"
 	@echo "... Number"
 	@echo "... Vector"
-	@echo "... home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.o"
-	@echo "... home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.i"
-	@echo "... home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.s"
-	@echo "... home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.o"
-	@echo "... home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.i"
-	@echo "... home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.s"
+	@echo "... home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.o"
+	@echo "... home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.i"
+	@echo "... home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.s"
+	@echo "... home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.o"
+	@echo "... home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.i"
+	@echo "... home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

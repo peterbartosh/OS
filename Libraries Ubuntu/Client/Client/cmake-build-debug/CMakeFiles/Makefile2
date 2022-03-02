@@ -54,18 +54,18 @@ RM = /home/peter/Downloads/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/bin/cma
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client"
+CMAKE_SOURCE_DIR = "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/Client.dir/all
-all: CMakeFiles/Number.dir/all
 all: CMakeFiles/Vector.dir/all
+all: CMakeFiles/Number.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,26 +74,26 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Client.dir/clean
-clean: CMakeFiles/Number.dir/clean
 clean: CMakeFiles/Vector.dir/clean
+clean: CMakeFiles/Number.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Client.dir
 
 # All Build rule for target.
-CMakeFiles/Client.dir/all: CMakeFiles/Number.dir/all
 CMakeFiles/Client.dir/all: CMakeFiles/Vector.dir/all
+CMakeFiles/Client.dir/all: CMakeFiles/Number.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Client"
 .PHONY : CMakeFiles/Client.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Client.dir/rule
 
 # Convenience name for target.
@@ -106,46 +106,20 @@ CMakeFiles/Client.dir/clean:
 .PHONY : CMakeFiles/Client.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Number.dir
-
-# All Build rule for target.
-CMakeFiles/Number.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target Number"
-.PHONY : CMakeFiles/Number.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Number.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Number.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Number.dir/rule
-
-# Convenience name for target.
-Number: CMakeFiles/Number.dir/rule
-.PHONY : Number
-
-# clean rule for target.
-CMakeFiles/Number.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/clean
-.PHONY : CMakeFiles/Number.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/Vector.dir
 
 # All Build rule for target.
 CMakeFiles/Vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target Vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target Vector"
 .PHONY : CMakeFiles/Vector.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Vector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Vector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Vector.dir/rule
 
 # Convenience name for target.
@@ -156,6 +130,32 @@ Vector: CMakeFiles/Vector.dir/rule
 CMakeFiles/Vector.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/clean
 .PHONY : CMakeFiles/Vector.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Number.dir
+
+# All Build rule for target.
+CMakeFiles/Number.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target Number"
+.PHONY : CMakeFiles/Number.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Number.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Number.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Client/Client/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Number.dir/rule
+
+# Convenience name for target.
+Number: CMakeFiles/Number.dir/rule
+.PHONY : Number
+
+# clean rule for target.
+CMakeFiles/Number.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Number.dir/build.make CMakeFiles/Number.dir/clean
+.PHONY : CMakeFiles/Number.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

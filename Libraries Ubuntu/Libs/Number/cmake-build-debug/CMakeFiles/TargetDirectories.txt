@@ -1,3 +1,3 @@
-/home/peter/Documents/OS/Libraries/Libs/Number/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/peter/Documents/OS/Libraries/Libs/Number/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/peter/Documents/OS/Libraries/Libs/Number/cmake-build-debug/CMakeFiles/Number.dir
+/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Number/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Number/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Number/cmake-build-debug/CMakeFiles/Number.dir

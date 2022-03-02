@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/peter/Documents/OS/Libraries Ubuntu/Libs/Number/library.cpp" "CMakeFiles/Number.dir/home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o" "gcc" "CMakeFiles/Number.dir/home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o.d"
+  "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Number/library.cpp" "CMakeFiles/Number.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o" "gcc" "CMakeFiles/Number.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o.d"
   )
 
 # Targets to which this target links.

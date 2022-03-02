@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Number.dir/home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o"
-  "CMakeFiles/Number.dir/home/peter/Documents/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o.d"
+  "CMakeFiles/Number.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o"
+  "CMakeFiles/Number.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o.d"
   "libNumber.a"
   "libNumber.pdb"
 )

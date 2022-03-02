@@ -61,7 +61,7 @@ rule CXX_SHARED_LIBRARY_LINKER__Vector_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/peter/Downloads/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/peter/Documents/OS/Libraries/Libs/Vector -B/home/peter/Documents/OS/Libraries/Libs/Vector/cmake-build-debug
+  command = /home/peter/Downloads/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S"/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Vector" -B"/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Vector/cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

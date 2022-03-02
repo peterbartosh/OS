@@ -3,7 +3,6 @@
 
 #include "../Number/library.h"
 
-
 class Vector {
 private:
     Number x;

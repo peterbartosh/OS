@@ -172,10 +172,14 @@ CMakeFiles/Client.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/9/bits/ostream.tcc \
   /usr/include/c++/9/istream \
   /usr/include/c++/9/bits/istream.tcc \
-  /home/peter/Documents/OS/Libraries\ Ubuntu/Libs/Number/library.h \
-  /home/peter/Documents/OS/Libraries\ Ubuntu/Libs/Vector/library.h \
-  /home/peter/Documents/OS/Libraries\ Ubuntu/Libs/Number/library.h
+  /home/peter/Documents/os\ labs/OS/Libraries\ Ubuntu/Libs/Number/library.h \
+  /home/peter/Documents/os\ labs/OS/Libraries\ Ubuntu/Libs/Vector/library.h \
+  /home/peter/Documents/os\ labs/OS/Libraries\ Ubuntu/Libs/Number/library.h
 
+
+/home/peter/Documents/os\ labs/OS/Libraries\ Ubuntu/Libs/Vector/library.h:
+
+/home/peter/Documents/os\ labs/OS/Libraries\ Ubuntu/Libs/Number/library.h:
 
 /usr/include/c++/9/bits/istream.tcc:
 
@@ -355,11 +359,7 @@ CMakeFiles/Client.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/home/peter/Documents/OS/Libraries\ Ubuntu/Libs/Number/library.h:
-
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/home/peter/Documents/OS/Libraries\ Ubuntu/Libs/Vector/library.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 

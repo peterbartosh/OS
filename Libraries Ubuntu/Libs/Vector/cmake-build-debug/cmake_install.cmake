@@ -1,4 +1,4 @@
-# Install script for directory: /home/peter/Documents/OS/Libraries/Libs/Vector
+# Install script for directory: /home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Vector
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/peter/Documents/OS/Libraries/Libs/Vector/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Vector/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

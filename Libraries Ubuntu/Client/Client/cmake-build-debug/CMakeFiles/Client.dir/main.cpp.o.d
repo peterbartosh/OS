@@ -1,5 +1,5 @@
 CMakeFiles/Client.dir/main.cpp.o: \
- /home/peter/Documents/OS/Libraries\ Ubuntu/Client/Client/main.cpp \
+ /home/peter/Documents/os\ labs/OS/Libraries\ Ubuntu/Client/Client/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -136,6 +136,6 @@ CMakeFiles/Client.dir/main.cpp.o: \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc \
- /home/peter/Documents/OS/Libraries\ Ubuntu/Client/Client/../../Libs/Number/library.h \
- /home/peter/Documents/OS/Libraries\ Ubuntu/Client/Client/../../Libs/Vector/library.h \
- /home/peter/Documents/OS/Libraries\ Ubuntu/Client/Client/../../Libs/Vector/../Number/library.h
+ /home/peter/Documents/os\ labs/OS/Libraries\ Ubuntu/Client/Client/../../Libs/Number/library.h \
+ /home/peter/Documents/os\ labs/OS/Libraries\ Ubuntu/Client/Client/../../Libs/Vector/library.h \
+ /home/peter/Documents/os\ labs/OS/Libraries\ Ubuntu/Client/Client/../../Libs/Vector/../Number/library.h

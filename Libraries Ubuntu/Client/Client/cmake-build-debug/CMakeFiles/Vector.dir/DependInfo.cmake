@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/peter/Documents/OS/Libraries Ubuntu/Libs/Vector/library.cpp" "CMakeFiles/Vector.dir/home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.o" "gcc" "CMakeFiles/Vector.dir/home/peter/Documents/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.o.d"
+  "/home/peter/Documents/os labs/OS/Libraries Ubuntu/Libs/Vector/library.cpp" "CMakeFiles/Vector.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.o" "gcc" "CMakeFiles/Vector.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Vector/library.cpp.o.d"
   )
 
 # Targets to which this target links.

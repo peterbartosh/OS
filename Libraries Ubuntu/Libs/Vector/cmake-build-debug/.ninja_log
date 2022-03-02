@@ -1,8 +1,5 @@
 # ninja log v5
-72	84	1645879811098582774	libNumber.a	1dbc8fac237bdba3
-1	257	1645879676078327354	CMakeFiles/Vector.dir/library.cpp.o	2452ff029befdf5e
-84	134	1645879811146582843	libVector.so	b50a3a95f12e060e
-1	72	1645879811082582751	CMakeFiles/Number.dir/library.cpp.o	8509c6aff643753c
-0	76	1645879877578666535	CMakeFiles/Number.dir/library.cpp.o	8509c6aff643753c
-77	94	1645879877598666557	libNumber.a	1dbc8fac237bdba3
-94	125	1645879877626666588	libVector.so	b50a3a95f12e060e
+26	32	1646229921141569458	libNumber.a	f5ef8ba5d2a5ede1
+1	65	1646229921173569131	CMakeFiles/Vector.dir/library.cpp.o	1f47431b26ec17d6
+65	97	1646229921205568804	libVector.so	b50a3a95f12e060e
+0	26	1646229921133569540	CMakeFiles/Number.dir/home/peter/Documents/os_labs/OS/Libraries_Ubuntu/Libs/Number/library.cpp.o	8a5e4291b255d20d

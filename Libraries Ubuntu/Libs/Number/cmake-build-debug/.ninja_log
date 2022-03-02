@@ -1,3 +1,5 @@
 # ninja log v5
-0	55	1645878914228848968	CMakeFiles/Number.dir/library.cpp.o	1673e3e053a48af4
 55	67	1645878914244848990	libNumber.a	1dbc8fac237bdba3
+0	55	1645878914228848968	CMakeFiles/Number.dir/library.cpp.o	1673e3e053a48af4
+0	63	1645966209905696144	CMakeFiles/Number.dir/library.cpp.o	768b4f59053c14ae
+63	75	1645966209917699801	libNumber.a	1dbc8fac237bdba3
